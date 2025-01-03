@@ -5,7 +5,8 @@ import sys
 def print_multiplication_table(n):
     for i in range(1, n + 1):
         for j in range(1, n + 1):
-            print("{:4d}".format(i * j), end="")
+            print(f"{i * j:4}", end="")
+            # print("{:4d}".format(i * j), end="")
         print()
 
 # print_multiplication_table(20)
